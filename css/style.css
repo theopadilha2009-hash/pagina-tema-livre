@@ -76,6 +76,23 @@ li {
   margin-bottom: 6px;
 }
 
+/* ---------- Imagens ---------- */
+figure {
+  margin: 16px 0 0;
+}
+
+img {
+  max-width: 100%; /* a foto nunca passa da largura da tela */
+  height: auto;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-size: 0.85rem;
+  color: #4a5d51;
+  margin-top: 6px;
+}
+
 /* ---------- Rodapé ---------- */
 footer {
   text-align: center;
