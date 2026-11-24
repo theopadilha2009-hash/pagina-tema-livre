@@ -1,8 +1,12 @@
 # Evidências da avaliação
 
+Aluno: Theo Lorentz Padilha — Turma: DSM3-25
+
 ## E1 — Repositório público
 
 https://github.com/theopadilha2009-hash/pagina-tema-livre
+
+![Repositório no GitHub](E1-repositorio-github.png)
 
 ## E2 — Página inteira no computador (1280 px)
 
