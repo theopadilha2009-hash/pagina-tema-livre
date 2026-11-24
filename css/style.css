@@ -154,3 +154,33 @@ footer {
   font-size: 0.9rem;
   color: #4a5d51;
 }
+
+/* ---------- Celular (telas de até 700px) ---------- */
+@media (max-width: 700px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  /* menu em coluna: os três links não cabem lado a lado */
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  nav a {
+    text-align: center;
+  }
+
+  main {
+    padding: 8px;
+  }
+
+  section {
+    padding: 16px;
+  }
+
+  /* quebra os links longos de crédito para não estourar a largura */
+  footer {
+    overflow-wrap: anywhere;
+  }
+}
