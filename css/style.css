@@ -93,6 +93,60 @@ figcaption {
   margin-top: 6px;
 }
 
+/* ---------- Formulário ---------- */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #9cc5a8;
+  border-radius: 8px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1b5e37;
+}
+
+button {
+  margin-top: 16px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #1b5e37;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #14472a;
+}
+
+/* Mensagem de erro: vermelho escuro para contrastar com o branco */
+#erro {
+  color: #b00020;
+  font-weight: bold;
+}
+
+/* Resultado: caixa verde clara */
+#resultado:not(:empty) {
+  background-color: #e3f3e7;
+  border-left: 6px solid #1b5e37;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+
 /* ---------- Rodapé ---------- */
 footer {
   text-align: center;

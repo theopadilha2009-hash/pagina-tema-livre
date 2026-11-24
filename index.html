@@ -50,6 +50,25 @@
 
     <section id="calculadora">
       <h2>Calculadora de garrafas PET</h2>
+      <p>Descubra quantas garrafas PET a sua turma pode reciclar e quantos quilos de plástico isso dá.</p>
+
+      <!-- novalidate: quem valida os dados é o JavaScript, não o navegador -->
+      <form id="form-garrafas" novalidate>
+        <label for="alunos">Quantos alunos participam?</label>
+        <input type="number" id="alunos" placeholder="ex.: 30">
+
+        <label for="garrafas">Garrafas por aluno por semana</label>
+        <input type="number" id="garrafas" placeholder="ex.: 2">
+
+        <label for="semanas">Por quantas semanas?</label>
+        <input type="number" id="semanas" placeholder="ex.: 4">
+
+        <button type="submit">Calcular</button>
+      </form>
+
+      <!-- aqui o JavaScript escreve o erro ou o resultado -->
+      <p id="erro" role="alert"></p>
+      <p id="resultado"></p>
     </section>
 
   </main>
