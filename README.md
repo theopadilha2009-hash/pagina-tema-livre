@@ -4,8 +4,8 @@ Página única de tema livre, feita em HTML, CSS e JavaScript puros (sem bibliot
 O tema é a reciclagem de garrafas PET na escola, com uma calculadora que mostra
 quantas garrafas e quantos quilos de plástico uma turma recicla.
 
-- **Autor:** Théo Lorentz Padilha
-- **Curso:** SENAI — turma T TDSEM25M1/M3
+- **Autor:** Theo Lorentz Padilha
+- **Curso:** SENAI — turma DSM3-25
 - **Unidade curricular:** Programação de Aplicativos
 - **Docente:** Ewerton de Oliveira Cercal
 - **Repositório:** https://github.com/theopadilha2009-hash/pagina-tema-livre
